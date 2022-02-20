@@ -50,6 +50,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B392FCE527C275F2002DD2FB /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		B392FCE627C275FD002DD2FB /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		B392FCE727C27603002DD2FB /* PersistentStorages */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = PersistentStorages;
+			sourceTree = "<group>";
+		};
 		B3D60BE527C12BF900DC8074 = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +92,9 @@
 		B3D60BF127C12BF900DC8074 /* MyArchitecture-CommonData */ = {
 			isa = PBXGroup;
 			children = (
+				B392FCE727C27603002DD2FB /* PersistentStorages */,
+				B392FCE627C275FD002DD2FB /* Network */,
+				B392FCE527C275F2002DD2FB /* Repositories */,
 				B3D60BF227C12BF900DC8074 /* MyArchitecture_CommonData.h */,
 				B3D60BF327C12BF900DC8074 /* MyArchitecture_CommonData.docc */,
 			);
